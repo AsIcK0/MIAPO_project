@@ -1,3 +1,4 @@
 import random
 def get_computer_choice():
-    return random.choice(['Rock', 'Paper', 'Scissor'])
+    computer_choice = random.choice(['Rock', 'Paper', 'Scissors'])
+    return computer_choice
