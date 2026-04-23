@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def get_player_choice():
     while True:
         player_choice = input('Enter Rock, Paper or Scissors.\n')
@@ -20,4 +21,10 @@ def determine_winner(player_choice, computer_choice):
         return True
     else:
         return False
+
+
+def read_file():
+    with open('readme.txt', 'r', encoding= 'utf-8') as file:
+        content = file.read()
+    print(content)
 
